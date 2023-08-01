@@ -1,9 +1,5 @@
-{{ define "main" }}
 {{ range .Site.Pages }}
-
-  {{ if in .Params.tags "_home" }}
-    {{ .Content }}
+  {{ if .Params.home }}
+    {{.Render}}
   {{ end }}
-{{ end }}
-
 {{ end }}
