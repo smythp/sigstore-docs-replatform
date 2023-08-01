@@ -1,9 +1,13 @@
 ---
 title: "Overview"
 description: "About Sigstore"
+contributors: []
 draft: false
 weight: 100
 toc: true
+images: []
+tags:
+- _home
 ---
 
 ![Sigstore](/images/sigstore_logo_horizontal_color.svg)
