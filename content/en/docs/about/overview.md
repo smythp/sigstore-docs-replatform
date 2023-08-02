@@ -9,7 +9,7 @@ images: []
 contributors: []
 ---
 
-![Sigstore](/images/sigstore_logo_horizontal_color.svg)
+![Sigstore](sigstore_logo_horizontal_color.svg)
 
 **Sigstore empowers software developers to securely sign software artifacts such as release files, container images, binaries, bill of material manifests and more. Signing materials are then stored in a tamper-resistant public log.**
 

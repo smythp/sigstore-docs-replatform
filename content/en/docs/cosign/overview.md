@@ -13,7 +13,7 @@ features:
   - Rego and Cuelang integrations for policy definition
 ---
 
-![Cosign Overview](/images/sigstore_cosign-horizontal-color.svg)
+![Cosign Overview](sigstore_cosign-horizontal-color.svg)
 
 ## Getting Started (Quick Start)
 

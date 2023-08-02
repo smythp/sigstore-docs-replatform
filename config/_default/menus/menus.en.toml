@@ -6,9 +6,22 @@
 
 [[docs]]
   name = "Cosign"
-  weight = 60
+  weight = 20
   identifier = "cosign"
   url = "/docs/cosign/"
+
+[[docs]]
+  name = "Policy Controller"
+  weight = 30
+  identifier = "policy-controller"
+  url = "/docs/policy-controller/"
+
+[[docs]]
+  name = "Gitsign"
+  weight = 40
+  identifier = "gitsign"
+  url = "/docs/gitsign/"
+
 
 # [[main]]
 #   name = "Docs"
