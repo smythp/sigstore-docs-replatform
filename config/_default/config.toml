@@ -1,4 +1,5 @@
-baseurl = "https://docs.sigstore.dev/"
+baseurl = "https://64cc355e4077e02ba08fe4b2--leafy-rugelach-7a2f99.netlify.app/" # Test site
+# baseurl = "https://docs.sigstore.dev/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
