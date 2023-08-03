@@ -1,7 +1,7 @@
 ---
-title: "Timestamps"
-category: "Cosign"
-position: 113
+category: Cosign
+title: Timestamps
+weight: 113
 ---
 
 Time is a critical component of Sigstore. It's used to verify that a short-lived certificate issued by Fulcio was valid at a previous point, when the artifact was signed.

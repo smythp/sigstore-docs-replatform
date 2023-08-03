@@ -1,7 +1,7 @@
 ---
-title: "Installation"
-category: "Rekor"
-position: 303
+category: Rekor
+title: Installation
+weight: 303
 ---
 
 There are several ways to install both the `rekor-cli` and `rekor-server`.

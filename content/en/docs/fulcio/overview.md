@@ -1,8 +1,8 @@
 ---
-title: "Fulcio"
-menuTitle: "Overview"
-category: "Fulcio"
-position: 201
+category: Fulcio
+menuTitle: Overview
+title: Fulcio
+weight: 201
 ---
 
 ![Fulcio Overview](/sigstore_fulcio-horizontal-color.svg)
@@ -13,4 +13,4 @@ Fulcio was designed to run as a centralized, public-good instance, auditable by 
 
 Fulcio is being developed as part of the sigstore project. Join us on our [Slack channel](https://sigstore.slack.com/) (need an [invite](https://links.sigstore.dev/slack-invite)?)
 
-You can learn more about Fulcio in the [Fulcio repo](https://github.com/sigstore/fulcio) and the [repo docs](https://github.com/sigstore/fulcio/tree/main/docs). 
+You can learn more about Fulcio in the [Fulcio repo](https://github.com/sigstore/fulcio) and the [repo docs](https://github.com/sigstore/fulcio/tree/main/docs).

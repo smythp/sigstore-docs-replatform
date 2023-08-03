@@ -1,8 +1,8 @@
 ---
-title: "Inspecting Commit Signatures"
-menuTitle: "Inspecting Signatures"
-category: "Gitsign"
-position: 155
+category: Gitsign
+menuTitle: Inspecting Signatures
+title: Inspecting Commit Signatures
+weight: 155
 ---
 
 Git commit signatures use [CMS/PKCS7 signatures](https://datatracker.ietf.org/doc/html/rfc5652). You can inspect the underlying data and certificate associated with a project's HEAD commit by running:
@@ -327,4 +327,3 @@ nPkp+Sy1EwIwdOulWop3oJV/Qo7fau0mlsy0MCm3lBgyxo2lpAaI4gFRxGE2GhpV
 ```
 
 Notice that **the Rekor entry uses the same certificate that was used to generate the Git commit signature**. This can be used to correlate the two messages, even though they signed different content!
-

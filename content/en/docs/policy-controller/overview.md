@@ -1,8 +1,8 @@
 ---
-title: "Policy Controller"
-category: "Policy Controller"
-menuTitle: "Overview"
-position: 140
+category: Policy Controller
+menuTitle: Overview
+title: Policy Controller
+weight: 140
 ---
 
 # Admission Controller

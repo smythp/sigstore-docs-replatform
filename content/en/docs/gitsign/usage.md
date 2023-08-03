@@ -1,8 +1,8 @@
 ---
-title: "Detailed Gitsign Usage"
-menuTitle: "Detailed Usage"
-category: "Gitsign"
-position: 153
+category: Gitsign
+menuTitle: Detailed Usage
+title: Detailed Gitsign Usage
+weight: 153
 ---
 
 ## Configuration

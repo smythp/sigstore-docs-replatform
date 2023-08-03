@@ -1,7 +1,7 @@
 ---
-title: 'CLI'
-category: 'Rekor'
-position: 304
+category: Rekor
+title: CLI
+weight: 304
 ---
 
 The following guide is targeted towards developers / software maintainers who would like to make a provenance entry into the rekor transparency log.

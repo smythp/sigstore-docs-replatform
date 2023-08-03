@@ -1,7 +1,7 @@
 ---
-title: "Signing with Self-Managed Keys"
-category: "Cosign"
-position: 103
+category: Cosign
+title: Signing with Self-Managed Keys
+weight: 103
 ---
 
 To generate a key pair in Cosign, run `cosign generate-key-pair`. You'll be interactively prompted to provide a password. 

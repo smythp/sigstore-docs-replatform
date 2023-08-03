@@ -1,8 +1,8 @@
 ---
-title: 'Get Help'
+category: Help
 description: ''
-category: 'Help'
-position: 902
+title: Get Help
+weight: 902
 ---
 
 If you were not able to find the relevant information to solve your issue, you can still get help from the `sigstore` community!

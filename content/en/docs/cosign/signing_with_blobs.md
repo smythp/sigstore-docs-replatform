@@ -1,7 +1,7 @@
 ---
-title: "Signing Blobs"
-category: "Cosign"
-position: 109
+category: Cosign
+title: Signing Blobs
+weight: 109
 ---
 
 You can use Cosign for signing and verifying standard files and blobs (or binary large objects), in addition to containers. This topic discusses signing blobs/files. For information on verifying, see [Verifying](/cosign/verify).
@@ -95,4 +95,3 @@ You can sign it with the normal `cosign sign` command and flags:
 ```shell
 $ cosign sign gcr.io/user/demo/artifact
 ```
-

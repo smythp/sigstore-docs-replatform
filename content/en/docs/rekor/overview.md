@@ -1,9 +1,9 @@
 ---
-title: "Rekor"
-description: "The Rekor overview"
-category: "Rekor"
-menuTitle: "Overview"
-position: 301
+category: Rekor
+description: The Rekor overview
+menuTitle: Overview
+title: Rekor
+weight: 301
 ---
 
 ![Rekor Overview](/sigstore_rekor-horizontal-color.svg)

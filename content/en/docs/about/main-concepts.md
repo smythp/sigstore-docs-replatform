@@ -1,14 +1,14 @@
 ---
-title: "Main Concepts"
-description: ""
-position: 2
-category: "About sigstore"
+category: About sigstore
+description: ''
 features:
-  - Cosign (signing, verification and storage for containers and other artifacts)
-  - Fulcio (root certificate authority)
-  - Rekor (transparency log)
-  - OpenID Connect (means of authentication)
-  - policy-controller (enforcing container orchestration policy)
+- Cosign (signing, verification and storage for containers and other artifacts)
+- Fulcio (root certificate authority)
+- Rekor (transparency log)
+- OpenID Connect (means of authentication)
+- policy-controller (enforcing container orchestration policy)
+title: Main Concepts
+weight: 2
 ---
 
 Sigstore combines several different technologies that focus on automatic key management and transparency logs. They can be used independently or as one single process, and together they create a safer chain of custody tracing software back to the source.

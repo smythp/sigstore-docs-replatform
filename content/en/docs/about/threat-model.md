@@ -1,8 +1,8 @@
 ---
-title: 'Threat Model'
+category: About sigstore
 description: ''
-category: 'About sigstore'
-position: 3
+title: Threat Model
+weight: 3
 ---
 
 ## Introduction
@@ -134,4 +134,3 @@ That policy should cover:
 * How do you handle revocation?
 
 The answers will be different in different settings. For instance, a small organization may be able to meet their security needs by requiring signatures from one fixed party, with a blocklist for revoked artifacts. A large package repository may need to manage signing identities that change frequently over time. We hope to provide more detailed guidance for a variety of settings in future documentation.
-

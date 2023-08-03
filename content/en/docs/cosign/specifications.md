@@ -1,7 +1,7 @@
 ---
-title: "Specifications"
-category: "Cosign"
-position: 120
+category: Cosign
+title: Specifications
+weight: 120
 ---
 
 `cosign` is inspired by tools like [minisign](https://jedisct1.github.io/minisign/) and

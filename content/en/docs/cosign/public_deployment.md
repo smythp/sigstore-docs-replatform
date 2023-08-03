@@ -1,7 +1,7 @@
 ---
-title: "Public Deployment"
-category: "Cosign"
-position: 122
+category: Cosign
+title: Public Deployment
+weight: 122
 ---
 
 There is a public staging environment, or deployment, that is running Fulcio, Rekor and OIDC issuer.
@@ -37,4 +37,3 @@ In order to revert, we need to clear the local TUF root data and re-initialize w
 
 1. `rm -r ~/.sigstore`
 1. `cosign initialize`
-

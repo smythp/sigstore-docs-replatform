@@ -1,8 +1,8 @@
 ---
-title: "Frequently asked questions"
-category: "Help"
-menuTitle: "FAQs"
-position: 900
+category: Help
+menuTitle: FAQs
+title: Frequently asked questions
+weight: 900
 ---
 
 This FAQ is intended to go as in depth as possible for anyone using sigstore. 

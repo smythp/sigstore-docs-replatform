@@ -1,8 +1,8 @@
 ---
-title: "Sample Policies"
-category: "Policy Controller"
-menuTitle: "Sample Policies"
-position: 143
+category: Policy Controller
+menuTitle: Sample Policies
+title: Sample Policies
+weight: 143
 ---
 
 Sample policies for use with policy-controller live in the [examples directory](https://github.com/sigstore/policy-controller/tree/main/examples) of the project. 

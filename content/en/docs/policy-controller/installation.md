@@ -1,8 +1,8 @@
 ---
-title: "Installation"
-category: "Policy Controller"
-menuTitle: "Installation"
-position: 142
+category: Policy Controller
+menuTitle: Installation
+title: Installation
+weight: 142
 ---
 
 The

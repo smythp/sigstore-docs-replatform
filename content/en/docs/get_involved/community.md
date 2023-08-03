@@ -1,7 +1,7 @@
 ---
-title: "Community"
-category: "Get involved"
-position: 810
+category: Get involved
+title: Community
+weight: 810
 ---
 
 The [sigstore/community](https://github.com/sigstore/community/) repository contains the most up-to-date information about how to get involved with the Sigstore project and its community.

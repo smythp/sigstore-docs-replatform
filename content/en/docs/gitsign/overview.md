@@ -1,8 +1,8 @@
 ---
-title: "Gitsign Overview"
-menuTitle: "Overview"
-category: "Gitsign"
-position: 150
+category: Gitsign
+menuTitle: Overview
+title: Gitsign Overview
+weight: 150
 ---
 
 ![Gitsign Overview](/sigstore_gitsign-horizontal-color.svg)

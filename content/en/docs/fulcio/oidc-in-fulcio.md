@@ -1,8 +1,8 @@
 ---
-title: "OIDC Usage in Fulcio"
-menuTitle: "OIDC Usage"
-category: "Fulcio"
-position: 202
+category: Fulcio
+menuTitle: OIDC Usage
+title: OIDC Usage in Fulcio
+weight: 202
 ---
 
 ## Summary

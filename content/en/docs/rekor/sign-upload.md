@@ -1,7 +1,7 @@
 ---
+category: Rekor
 title: Signing and Uploading Other Types
-category: "Rekor"
-position: 305
+weight: 305
 ---
 
 This documentation contains information on how to sign and upload data in different [pluggable types](/rekor/pluggable-types/).
@@ -287,4 +287,3 @@ Body: {
 }
 
 ```
-

@@ -1,8 +1,8 @@
 ---
-title: "Contributing"
-description: "Intro text"
-category: "Get involved"
-position: 800
+category: Get involved
+description: Intro text
+title: Contributing
+weight: 800
 ---
 
 ## Creating new resources

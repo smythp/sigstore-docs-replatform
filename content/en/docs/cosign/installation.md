@@ -1,7 +1,7 @@
 ---
-title: "Installation"
-category: "Cosign"
-position: 102
+category: Cosign
+title: Installation
+weight: 102
 ---
 
 ## With Go 1.19+

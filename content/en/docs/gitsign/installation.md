@@ -1,8 +1,8 @@
 ---
-title: "Gitsign Installation"
-menuTitle: "Installation"
-category: "Gitsign"
-position: 152
+category: Gitsign
+menuTitle: Installation
+title: Gitsign Installation
+weight: 152
 ---
 
 ## Installing Gitsign

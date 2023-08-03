@@ -1,7 +1,7 @@
 ---
-title: "Registry Support"
-category: "Cosign"
-position: 116
+category: Cosign
+title: Registry Support
+weight: 116
 ---
 
 Cosign uses [go-containerregistry](https://github.com/google/go-containerregistry) for registry
