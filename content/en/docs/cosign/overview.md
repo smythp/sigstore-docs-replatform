@@ -13,7 +13,7 @@ title: Cosign
 weight: 100
 ---
 
-![Cosign Overview](sigstore_cosign-horizontal-color.svg)
+![Cosign Overview](/sigstore_cosign-horizontal-color.svg)
 
 ## Getting Started (Quick Start)
 
@@ -36,7 +36,7 @@ The bundle contains signing metadata, including the signature and certificate.
 
 The Cosign command requests a certificate from the Sigstore certificate authority, Fulcio. Fulcio checks your identity by using an authentication protocol (OpenID Connect) to confirm your email address. If your identity is correct, Fulcio grants a short-lived, time-stamped certificate. The certificate is bound to the public key to attest to your identity. This activity is logged using the Sigstore transparency and timestamping log, Rekor.
 
-Note that you don’t need to use a key to sign. Currently, you can authenticate with Google, GitHub, or Microsoft, which will associate your identity with a short-lived signing key.
+Note that you don’t need to use a key to sign. Currently, you can authenticate with Google, GitHub, or Microsoft, which will associate your identity with a short-lived signing key. 
 
 For more information about Cosign's additional options and features, run the command:
 
@@ -58,7 +58,7 @@ The following example verifies the signature on `file.txt` from user `name@examp
 
 ```
 $ cosign verify-blob <file> --bundle cosign.bundle --certificate-identity=name@example.com
-							  --certificate-oidc-issuer=https://accounts.example.com
+                              --certificate-oidc-issuer=https://accounts.example.com
 ```
 
 To verify, Cosign queries the transparency log (Rekor) to compare the public key bound to the certificate, and checks the timestamp on the signature against the artifact’s entry in the transparency log. The signature is valid if its timestamp falls within the small window of time that the key pair and certificate issued by the certificate authority were valid.
@@ -91,7 +91,7 @@ This works similarly to verifying a blob, but there is no need to place the cert
 
 ```
 $ cosign verify <image URI> --certificate-identity=name@example.com
-							--certificate-oidc-issuer=https://accounts.example.com
+                            --certificate-oidc-issuer=https://accounts.example.com
 ```
 
 > Note that for our example we use the `regexp` versions of the identity options:
