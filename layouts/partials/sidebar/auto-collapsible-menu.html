@@ -30,7 +30,7 @@
                             <div class="collapse{{ if $active }} show{{ end }}" id="section-{{ md5 .Title }}">
                               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                                 {{ range .Pages }}
-                                  {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                                {{ $active := in $currentPage.RelPermalink .RelPermalink }}
                                   <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
                                 {{ end }}
                               </ul>
@@ -46,7 +46,11 @@
                 </li>
               {{ else }}
                 {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+                <li><a class="docs-link rounded{{ if $active }} active{{ end }}" href="{{ .Permalink }}">
+
+		  {{ partial "partials/sidebar/menu-item.html" . }}
+
+		</a></li>
               {{ end }}
             {{ end }}
           </ul>
