@@ -1,14 +1,14 @@
 [[docs]]
-  name = "About"
-  weight = 10
-  identifier = "about"
-  url = "/docs/about/"
-
-[[docs]]
   name = "Cosign"
   weight = 20
   identifier = "cosign"
   url = "/docs/cosign/"
+
+[[docs]]
+  name = "About"
+  weight = 10
+  identifier = "about"
+  url = "/docs/about/"
 
 [[docs]]
   name = "Policy Controller"
@@ -21,6 +21,25 @@
   weight = 40
   identifier = "gitsign"
   url = "/docs/gitsign/"
+
+[[docs]]
+  name = "Rekor"
+  weight = 50
+  identifier = "rekor"
+  url = "/docs/rekor/"
+
+[[docs]]
+  name = "Get Involved"
+  weight = 60
+  identifier = "get_involved"
+  url = "/docs/get_involved/"
+
+[[docs]]
+  name = "Help"
+  weight = 70
+  identifier = "help"
+  url = "/docs/help/"
+
 
 
 # [[main]]
