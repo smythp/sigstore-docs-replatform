@@ -9,7 +9,7 @@ description = "Sigstore empowers software developers to securely sign software a
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["preview.png"]
 ogLocale = "en_US"
 domainTLD = "main--leafy-rugelach-7a2f99.netlify.app"
 titleHome = "Sigstore Docs"
@@ -30,10 +30,10 @@ schemaLocale = "en-US"
 schemaLogo = "sigstore-logo.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "preview.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaTwitter = "https://twitter.com/projectsigstore"
 schemaLinkedIn = ""
 schemaGitHub = "https://github.com/sigstore/docs"
 # schemaSection = "blog"
